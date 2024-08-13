@@ -1,0 +1,56 @@
+[ 
+    {     
+        "img":"http://localhost:3000/images/newitems/newitem_bigimg1.png",
+        "name":"우주 라이크 봉봉",
+        "path":"/menu/icecreamdetail/34",
+        "type":"icecream",
+        "items":[
+          { "img":"http://localhost:3000/images/newitems/newitem_big1.jpg",
+            "name":"이상한 나라의 슈팅스타",
+            "path":"/menu/icecreamdetail/33",
+            "type":"icecream"
+          },
+          {
+            "img":"http://localhost:3000/images/newitems/newitem_2.png",
+            "name":"우주라이크 봉봉 케이크",
+            "path":"/menu/icecreamcakedetail/20",
+            "type":"icecreamcake"
+          },
+          { "img":"http://localhost:3000/images/newitems/newitem_3.png", 
+            "name":"스페셜 데이",
+            "path":"/menu/icecreamcakedetail/9",
+            "type":"icecreamcake"
+          },
+          { "img":"http://localhost:3000/images/newitems/newitem_4.png",
+            "name":"레디팩 뉴욕 치즈 케이크",
+            "path":"/menu/prepackdetail/14",
+            "type":"prepack"}]
+      },
+    {     
+        "img":"http://localhost:3000/images/newitems/newitem_big2.jpg",
+        "name":"디노 젤리",
+        "path":"/menu/icecreamdetail/29",
+        "type":"icecream",
+        "items":[
+          { "img":"http://localhost:3000/images/newitems/newitem_ryan.png",
+            "name":"반짝이는 잔망루피",
+            "path":"/menu/icecreamcakedetail/12",
+            "type":"icecreamcake"
+          },
+          { "img":"http://localhost:3000/images/newitems/newitem_joy.png",
+            "name":"해피 조이 큐브",
+            "path":"/menu/icecreamcakedetail/19",
+            "type":"icecream"
+          },
+          { "img":"http://localhost:3000/images/newitems/newitem_7.jpg",
+            "name":"애플망고 젤라또",
+            "path":"/menu/prepackdetail/36",
+            "type":"prepack"
+        },
+          { "img":"http://localhost:3000/images/newitems/lastitem.png",
+            "name":"해피 스마일 포 유 ",
+            "path":"/menu/icecreamcakedetail/15",
+            "type":"icecreamcake"
+            }]
+      }
+    ]

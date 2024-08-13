@@ -1,0 +1,116 @@
+[
+    {
+        "name":"부산서면중앙점",
+        "address":"부산 부산진구 부전동 195-3 1층",
+        "number":"051-803-1180",
+        "time":"AM 10 ~ PM 11",
+        "menu":"카페브리즈",
+        "service":["주차가능, ","해피포인트 적립가능, ","해피오더 딜리버리, ","해피오더 픽업"],
+        "etc":[
+            {
+                "special":"선데볼",
+                "img":"http://localhost:3000/images/brstore/specialmenu_bowl.png",
+                "desc":"갓 구운 바삭한 와플콘에 아이스크림을 듬뿍 넣고 토핑으로 화려함을 더한 선데볼"
+            },
+            {
+                "special":"아이스 타코",
+                "img":"http://localhost:3000/images/brstore/specialmenu_icetaco.png",
+                "desc":"매장에서 제조한 바삭한 와플 쉘에 아이스크림과 초콜릿 코팅으로 달콤함과 짭짤함을 동시에 맛볼 수 있는 아이스 타코"
+            }
+        ],
+        "map":[
+            {
+                "lat":"35.1539437",
+                "long":"129.0593831"
+            }
+        ]
+    },
+    {
+        "name":"파르나스몰점",
+        "address":"서울 강남구 테헤란로 521, 지하1층 R-21, 22호(삼성동, 파르나스타워)",
+        "number":"02-3435-8801",
+        "time":"AM 10 ~ PM 11",
+        "menu":"카페브리즈",
+        "service":["주차가능, ","해피포인트 적립가능, ","해피오더 딜리버리, ","해피오더 픽업, ","요기요"],
+        "etc":[
+            {
+                "special":"선데볼",
+                "img":"http://localhost:3000/images/brstore/specialmenu_bowl.png",
+                "desc":"갓 구운 바삭한 와플콘에 아이스크림을 듬뿍 넣고 토핑으로 화려함을 더한 선데볼"
+            },
+            {
+                "special":"아이스 타코",
+                "img":"http://localhost:3000/images/brstore/specialmenu_icetaco.png",
+                "desc":"매장에서 제조한 바삭한 와플 쉘에 아이스크림과 초콜릿 코팅으로 달콤함과 짭짤함을 동시에 맛볼 수 있는 아이스 타코"
+            }
+        ],
+        "map":[
+            {
+                "lat":"37.5091322",
+                "long":"127.0608511"
+            }
+        ]
+    },
+    {
+        "name":"SPC스퀘어점",
+        "address":"서울 강남구 역삼동 831-23 2층",
+        "number":"02-565-1012",
+        "time":"AM 10 ~ PM 11",
+        "menu":"카페브리즈",
+        "service":["주차가능, ","해피포인트 적립가능, ","해피오더 딜리버리, ","해피오더 픽업, ","요기요"],
+        "etc":[
+            {
+                "special":"리얼 애플 망고 빙수",
+                "img":"http://localhost:3000/images/brstore/specialmenu_mangobingsu.png",
+                "desc":"생 애플망고와 달콤한 아이스크림이 조화로운 빙수"
+            },
+            {
+                "special":"선데볼",
+                "img":"http://localhost:3000/images/brstore/specialmenu_bowl.png",
+                "desc":"갓 구운 바삭한 와플콘에 아이스크림을 듬뿍 넣고 토핑으로 화려함을 더한 선데볼"
+            },
+            {
+                "special":"아이스 타코",
+                "img":"http://localhost:3000/images/brstore/specialmenu_icetaco.png",
+                "desc":"매장에서 제조한 바삭한 와플 쉘에 아이스크림과 초콜릿 코팅으로 달콤함과 짭짤함을 동시에 맛볼 수 있는 아이스 타코"
+            }
+        ],
+        "map":[
+            {
+                "lat":"37.4943316",
+                "long":"127.0298345"
+            }
+        ]
+    },
+    {
+        "name":"강남대로점",
+        "address":"서울특별시 강남구 강남대로 442(역삼1동) 1층",
+        "number":"02-461-1217",
+        "time":"AM 10 ~ PM 11",
+        "menu":"카페브리즈",
+        "service":["주차가능, ","해피포인트 적립가능, ","해피오더 딜리버리, ","해피오더 픽업, ","요기요"],
+        "etc":[
+            {
+                "special":"아이스 쿠키 샌드",
+                "img":"http://localhost:3000/images/brstore/specialmenu_cookiesand.png",
+                "desc":"Design Your Cookie Sand! 원하는 쿠키와 아이스크림을 선택할 수 있는 나만의 아이스 쿠키 샌드"
+            },
+            {
+                "special":"리얼 애플 망고 빙수",
+                "img":"http://localhost:3000/images/brstore/specialmenu_mangobingsu.png",
+                "desc":"생 애플망고와 달콤한 아이스크림이 조화로운 빙수"
+            },
+            {
+                "special":"선데볼",
+                "img":"http://localhost:3000/images/brstore/specialmenu_bowl.png",
+                "desc":"갓 구운 바삭한 와플콘에 아이스크림을 듬뿍 넣고 토핑으로 화려함을 더한 선데볼"
+            }
+        ],
+        "map":[
+            {
+                "lat":"37.5021082",
+                "long":"127.0259519"
+            }
+        ]
+    }
+]

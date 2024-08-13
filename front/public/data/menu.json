@@ -1,0 +1,105 @@
+{
+    "menu" : {
+        "title" : "MENU",
+        "url" : "/menu/icecream",
+        "id" : 1, 
+        "list" : [
+            { "name" : "이달의 맛", 
+            "url" : "/menu/monthflavor",
+            "id": "1-1" }, 
+             
+            { "name" : "아이스크림", 
+            "url" : "/menu/icecream",
+            "id": "1-2" }, 
+             
+            { "name" : "프리팩", 
+            "url" : "/menu/prepack",
+            "id": "1-3" }, 
+             
+            { "name" : "아이스크림 케이크", 
+            "url" : "/menu/icecreamcake",
+            "id": "1-4" }
+        ]
+    },
+
+    "brplay" : {
+        "title" : "BR Play",
+        "url" : "/play/event",
+        "id" : 2, 
+        "list" : [
+            { "name" : "이벤트", 
+            "url" : "/play/event",
+            "id": "2-1" }, 
+             
+            { "name" : "BR레시피", 
+            "url" : "/play/brrecipe",
+            "id": "2-2" }
+        ]
+    },
+    
+    "brstory" : {
+        "title" : "BR Story",
+        "url" : "/story/story",
+        "id" : 3, 
+        "list" : [
+            { "name" : "브랜드 스토리", 
+            "url" : "/story/story",
+            "id": "3-1" }, 
+             
+            { "name" : "이달의 맛 히스토리", 
+            "url" : "/story/history",
+            "id": "3-2" },
+
+            { "name" : "Be Better", 
+            "url" : "/story/bebetter",
+            "id": "3-3" }
+        ]
+    },
+    
+    "store" : {
+        "title" : "Delivery/Store",
+        "url" : "/store/flavor",
+        "id" : 4, 
+        "list" : [
+            { "name" : "100 flavor 플래그십스토어", 
+            "url" : "/store/flavor",
+            "id": "4-1" }, 
+             
+            { "name" : "flow매장", 
+            "url" : "/store/flow",
+            "id": "4-2" },
+
+            { "name" : "점포개설문의", 
+            "url" : "/store/openstore",
+            "id": "4-3" },
+            { "name" : "배달주문", 
+            "url" : "/store/openstore",
+            "id": "4-3" },
+            { "name" : "단체주문", 
+            "url" : "/store/openstore",
+            "id": "4-3" }
+        ]
+    },
+    
+    "information" : {
+        "title" : "Information Center",
+        "url" : "/cscenter",
+        "id" : 5, 
+        "list" : [
+            { "name" : "고객센터", 
+            "url" : "/cscenter",
+            "id": "5-1" }, 
+             
+            { "name" : "소비자중심경영(CCM)", 
+            "url" : "/cscenter/ccm",
+            "id": "5-2" },
+
+            { "name" : "칭찬점포", 
+            "url" : "/cscenter/praise",
+            "id": "5-3" },
+            { "name" : "공지사항", 
+            "url" : "/cscenter/notice",
+            "id": "5-4" }
+        ]
+    }
+}

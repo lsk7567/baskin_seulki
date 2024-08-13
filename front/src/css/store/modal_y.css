@@ -1,0 +1,34 @@
+.close{
+    position: absolute;
+    border: 3px solid #ff7c98;
+    font-size: 2rem;
+    background-color: white;
+    color: #ff7c98;
+    right: -1rem;
+    top: -1rem;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+}
+.modal_container{
+    border: 5px solid #ff7c98;
+    border-radius: 10px;
+    position:fixed;
+    left: 30%;
+    top: 12rem;
+}
+.modal_out{
+    background-color: rgba(0,0,0,0.2);
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.modal_content{
+    background-color: white;
+    width: 450px;
+    height: 450px;
+}

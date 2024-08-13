@@ -1,0 +1,77 @@
+
+a{
+  text-decoration: none;
+}
+
+img{vertical-align: middle;}
+
+.footer_outer{
+  min-width: 1500px;
+  background-color: #1c1b18;
+  color : white;
+  padding : 1rem 6rem 0 6rem;
+/*   border: 1px solid red; */
+}
+/* .footer{
+  padding : 2rem 8rem 0 8rem;
+  border :1px solid yellow;
+} */
+
+.footer_top_navs{
+  display: flex;
+padding-top : 1rem ;
+padding-bottom: 1.3rem;
+font-size: 0.8rem;
+border-bottom: 1px solid rgb(51,50,48);
+/*  border : 1px solid yellow;  */
+ justify-content: space-between;
+}
+
+.footer_top_nav{
+  padding : 0.3rem 0.5rem;
+  justify-content: space-between;
+/*  border : 1px solid orange;   */
+  color : rgb(255,255,255);
+  font-size: 0.66rem;
+}
+
+
+.footer_mid{
+padding-top: 2rem;
+  justify-content: space-between;
+  display: flex;
+  padding-bottom: 1rem;
+
+}
+
+.footer_mid_left{
+color : #ffffff3b;
+font-size: 0.6rem;
+
+}
+.footer_logo{
+  height: 104px;
+}
+
+.footer_bottom{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 7rem 0;
+  border-top: 1px solid  rgb(51,50,48) ;
+  align-items: center;
+}
+
+.footer_bottom_img{
+height: 2rem;
+margin-right: 1.8rem;
+}
+
+
+.footer_selectbox{
+background-color: white;
+border-radius: 2rem;
+font-weight: bold;
+height: 2.5rem;
+/* text-align: center; */
+width: 10rem;
+}

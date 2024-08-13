@@ -1,0 +1,645 @@
+/********** 
+
+MenuNavbar
+
+***********/
+.menunavbar {
+  display: flex;
+  justify-content: center;
+}
+.menunavbar > li > a {
+  color: #f986bd;
+}
+.menupinkbox {
+  background-color: #f986bd;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+.menunavbar_item {
+  display: block;
+  position: relative;
+  padding: 5px 22px;
+  border-radius: 2px;
+  color: #f986bd;
+  font-size: 15px;
+}
+
+.menunavbar_item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 20px;
+  background-color: #f986bd;
+}
+
+/********** 
+
+MonthFlavour
+
+***********/
+
+.monthflavour_content {
+  text-align: center;
+}
+.monthflavour_header {
+  color: #f986bd;
+  font-weight: 700;
+  font-size: 90px;
+  letter-spacing: -0.075em;
+  line-height: 1;
+}
+
+.monthflavour_form {
+  padding: 60px 0px 50px;
+  color: black;
+  border: 1px solid var(--gray-color-1);
+}
+
+.monthflavour_box {
+  padding: 0px 25px 40px;
+  text-align: center;
+}
+
+.monthflavor_title_eng {
+  margin-top: 13px;
+  color: #37271f;
+  font-weight: 700;
+  font-size: 25px;
+}
+.monthflavour_title_kor {
+  margin-top: 13px;
+  color: #37271f;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 1.2;
+}
+.monthflavour_description {
+  margin-top: 17px;
+  color: #37271f;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.monthflavour_bar {
+  border: 1px solid var(--gray-color-1);
+  margin: auto;
+  width: 60%;
+  margin-bottom: 17px;
+}
+
+.monthflavour_items {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.monthflavour_items img {
+  width: 64px;
+  height: auto;
+}
+
+.monthflavour_item_name {
+  margin-top: 10px;
+  color: var(--brown-color-1);
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+
+.monthflavour_product {
+  width: 100%;
+}
+
+.monthflavour_new_title {
+  color: var(--brown-color-1);
+  font-weight: 600;
+  font-size: 23px;
+}
+.monthflavour_new_items {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+
+.monthflavour_new_item {
+  width: 253px;
+  height: 352px;
+  border-radius: 20px;
+  border: 1px solid var(--gray-color-1);
+}
+.monthflavour_new_img {
+  width: 251px;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+
+.monthflavour_new_item_name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 84px;
+  padding: 0 10px;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+
+.happyjoy {
+  background-color: rgb(222, 184, 207);
+}
+
+/********** 
+
+IceCream
+
+***********/
+
+.menu_page_content {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.menu_page_name {
+  color: #f986bd;
+  font-weight: 700;
+  font-size: 90px;
+  letter-spacing: -5px;
+  line-height: 1;
+}
+
+.menu_page_description {
+  color: #f986bd;
+  padding: 0 25px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/********** 
+
+MenuList
+
+***********/
+.menulisthr_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.menulisthr {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: left;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.menulisthr_item {
+  flex: 1 1 calc(20% - 20px);
+  max-width: calc(20%- 20px);
+  margin: 0 15px;
+  position: relative;
+  width: 260px;
+  height: 250px;
+  text-align: center;
+}
+
+.menulisthr_item_box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 210px;
+  border: 1px solid #f3eee4;
+  border-radius: 45px;
+  overflow: hidden;
+}
+
+.menulisthr_item_image {
+  width: 231px;
+  height: 231px;
+  transform: translateY(15px);
+  transition: all 0.5s;
+}
+
+.menulisthr_item_name {
+  display: block;
+  width: 260px;
+  height: 19px;
+  margin: 20px 0 0;
+  padding: 0px 20px;
+  margin-top: 20px;
+  color: #999;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.menulisthr_item_hash {
+  display: block;
+  position: absolute;
+  opacity: 0;
+  top: 125px;
+  width: 260px;
+  height: 19px;
+  padding: 0 20px;
+  font-weight: 600;
+  font-size: 17;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.menulisthr_item_label {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 67px;
+  height: 81px;
+}
+
+.menulisthr_item:hover .menulisthr_item_image {
+  margin-top: 150px;
+}
+
+.menulisthr_item:hover .menulisthr_item_hash {
+  transform: translateY(-80px);
+  opacity: 1;
+}
+
+.menulisthr_item:hover .menulisthr_item_label {
+  opacity: 0;
+}
+
+/***************************************  
+
+ProductDetail
+
+***************************************/
+/****************
+ *   MenuViewTop
+ ***************/
+
+.menuviewtop {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+}
+
+.menuviewtop_img_box,
+.menuviewtop_description_box {
+  width: 482px;
+  height: 534px;
+}
+
+.menuviewtop_description_box {
+  position: relative;
+  padding: 130px 0px 0px 92px;
+}
+
+.menuviewtop_description_box_mini {
+  display: inline-block;
+  position: absolute;
+
+  bottom: 0;
+  align-items: center;
+}
+.menuviewtop_img_box {
+  overflow: hidden;
+  position: relative;
+  border-radius: 50% 50% 0 0;
+}
+
+.menuviewtop_imageice {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 472px;
+  height: 472px;
+  z-index: 5;
+}
+
+.menuviewtop_imagecone {
+  position: absolute;
+  width: 140px;
+  height: auto;
+  top: 355px;
+  left: 170px;
+}
+
+.menuviewtop_line {
+  color: #ff87a0;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.menuviewtop_engname {
+  font-weight: 600;
+}
+
+.menuviewtop_korname1 {
+  margin-top: 16px;
+  font-size: 42px;
+}
+
+.menuviewtop_korname2 {
+  font-size: 42px;
+}
+
+.menuviewtop_description {
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.3333333333;
+}
+
+.menuviewtop_price {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.3333333333;
+}
+
+.menuviewtop_ingredients {
+  display: flex;
+  margin-top: 16px;
+  gap: 2.5rem;
+}
+
+.menuviewtop_ingredient_item {
+  width: 56px;
+  height: 56px;
+}
+
+.menuviewtop_ingredient_name {
+  display: block;
+  margin-top: 16px;
+  color: #41332c;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+}
+
+.menuviewtop_cartlist {
+  display: flex;
+  margin-top: 20px;
+  gap: 16px;
+  font-weight: 500;
+  font-size: 17px;
+  vertical-align: center;
+}
+
+.menuviewtop_size div {
+  display: flex;
+}
+
+.menuviewtop_cartlist button {
+  background-color: #ffd8e0;
+  border: 3px solid #fc94a9;
+  border-radius: 5px;
+  color: var(--pink-color-2);
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0;
+}
+
+.menuviewtop_btn_left {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  z-index: 5;
+}
+
+.menuviewtop_btn_right {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  z-index: 5;
+}
+
+.menuviewtop_btn_image_left {
+  margin-right: 16px;
+}
+.menuviewtop_btn_image_right {
+  margin-left: 16px;
+}
+.menuviewtop_btn_name {
+  color: #f986bd;
+}
+
+.menuview_cake_title {
+  color: #41332c;
+  font-weight: 600;
+  font-size: 20px;
+  transform: translateX(260px);
+  margin-top: 120px;
+  margin-bottom: 10px;
+}
+
+/***********************
+ *   menuviewnutrition
+ ***********************/
+.dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+.menuviewnutrition_content {
+  width: 985px;
+  margin: 72px auto 0;
+  padding-top: 52px;
+  border-top: 1px solid #c6c1bf;
+}
+.menuviewnutrition {
+  display: flex;
+  align-items: center;
+}
+
+.menuviewnutrition_title {
+  width: 215px;
+  color: var(--brown-color-1);
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.menuviewnutrition_table {
+  width: calc(100% - 215px);
+}
+
+.menuviewnutrition_item {
+  float: left;
+  margin-left: 30px;
+}
+
+.menuviewnutrition_item::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.menuviewnutrition_item:last-child {
+  float: right;
+}
+
+.menuviewnutrition_name {
+  color: var(--brown-color-1);
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+}
+
+.menuviewnutrition_text {
+  margin-top: 10px;
+  text-align: center;
+  color: #ff3f67;
+}
+
+/**
+ * MenuviewImage
+ */
+
+.menuviewimage_p {
+  text-align: center;
+}
+.menuviewimage {
+  width: 750px;
+  height: 1224px;
+  margin-top: 60px;
+}
+
+/**
+ *  MenuviewSize
+ */
+.menuviewsize {
+  display: flex;
+  width: 985px;
+  margin: 80px auto 0;
+}
+.menuviewsize_title {
+  display: flex;
+  width: 215px;
+  height: 36px;
+  color: var(--brown-color-1);
+  font-weight: 600;
+  font-size: 25px;
+}
+.menuviewsize_list_box {
+  display: flex;
+  align-items: flex-start;
+}
+
+.menuviewsize_list_title {
+  display: flex;
+  align-items: flex-end;
+  width: 136px;
+  height: 36px;
+  color: var(--brown-color-1);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.menuviewsize_list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.menuviewsize_list_item {
+  width: 109px;
+  height: 168px;
+  text-align: center;
+}
+
+.menuviewsize_list_item:not(:first-child) {
+  margin-left: 52px;
+}
+
+.menuviewsize_list_name {
+  margin-top: 16px;
+  white-space: nowrap;
+  text-align: center;
+  color: #2f231c;
+}
+
+.menuviewsize_list_weight {
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: 8px;
+  font-size: 13px;
+  color: #aca09a;
+}
+
+.menuviewsize_list_price {
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 13px;
+  color: #ff5b76;
+}
+
+.menuviewsize_text {
+  margin-top: 35px;
+  padding-right: 20px;
+  color: #aca09a;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: right;
+}
+
+/**
+ * RelatedProduct
+ */
+
+.relatedproduct {
+  width: 1500px;
+  height: 248px;
+  margin: 120px 0 0;
+}
+.relatedproduct_title {
+  width: 985px;
+  margin: 0 0 50px 256px;
+  color: var(--brown-color-1);
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.relatedproducts {
+  display: flex;
+  width: 985px;
+  height: 161px;
+
+  text-align: center;
+  margin: 0 0 0 256px;
+  gap: 1rem;
+}
+
+.relatedproduct_box {
+  width: 100px;
+  margin: 0 20px;
+}
+
+.relatedproduct_image {
+  width: 100px;
+  height: 100px;
+}
+
+.relatedproduct_name {
+  width: 100px;
+  height: 44px;
+  color: #a99e96;
+  padding: 10px 0 0;
+}

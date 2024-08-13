@@ -1,0 +1,52 @@
+#main_home{
+  padding-top: 8rem;
+  background-image: url('../../../public/images/main/bg_hero.jpg');
+  text-align: center;
+}
+
+.home_main_logo{
+  width: 400px;
+  height: 100px;
+  background-color:  rgb(246,140,181);
+  border-radius: 20px;
+
+  margin: 0 auto;
+  background-image: url('../../../public/images/baskin_robbins_logo_2__81689-scaled-removebg-preview.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 10%;
+}
+.home_main_image{
+  margin: 0 auto;
+  width: 1500px;
+ /*  border: 5px solid red; */
+  position: relative;
+}
+.home_image{
+  width: 1500px;
+  border-radius: 150px;
+  border: 15px solid rgb(246,140,181);
+}
+
+/* home event */
+.homeeventlist{
+  /* border: 5px solid blue; */
+  margin: 0;
+  width: 400px;
+  position: absolute;
+  bottom: 2rem;
+}
+.eventbtn{
+  position: absolute;
+  right: 21rem;
+  font-size: 1.8rem;
+  background-color: white;
+  padding: 1rem;
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+  border-radius: 100%;
+  opacity: .8;
+}
+button{
+  border: none;
+}

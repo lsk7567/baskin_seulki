@@ -1,0 +1,112 @@
+.navbarlist .navbar_flow:nth-child(2) button {
+    color: white;
+    width: 120px;
+    background-color:rgb(249,134,189);
+} 
+.navbarlist .navbar_flow:nth-child(1) button {
+    color: rgb(249,134,189);
+    background-color:white;
+} 
+.navbarlist li:nth-child(1) button{
+    border: none;
+}
+
+.flow_content{
+    position: relative;
+    background-image: url('../../../public/images/brstore/bg_flow.png');
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 1500px;
+    margin: 0 auto;
+}
+.flow_title{
+    background-image: url('../../../public/images/brstore/img_flow_title.png');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: 9rem;
+    right: 23rem;
+}
+.flow_title span{
+    visibility: hidden;
+}
+.info1{
+    position: absolute;
+    top: 14.5rem;
+    right: 2rem;
+    width: 550px;
+    text-align: left;
+}
+.info_title{
+    margin: .5rem 0;
+    font-size: 1.4rem;
+    color: rgb(230,103,135);
+}
+.info_desc{
+    font-size: .9rem;
+    width: 550px;
+    font-weight: 600;
+    color: rgb(150, 153, 153);
+    padding-right: .5rem;
+}
+.info2{
+    position: absolute;
+    top: 50rem;
+    left: 5rem;
+    width: 550px;
+    text-align: left;
+}
+.info3{
+    position: absolute;
+    bottom: 28rem;
+    right: 0rem;
+    width: 550px;
+    text-align: left;
+}
+/* flow 매장찾기 */
+.flow_store_title{
+    display: inline-block;
+    font-size: 1.8rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+}
+.flow_store_box{
+    border: 1px solid rgb(150, 153, 153);
+    border-radius: 8px;
+    width: 580px;
+    padding: 1.5rem;
+    position:relative;
+    text-align: left;
+}
+.flow_store_name{
+    margin-top: 0;
+    text-align: left;
+    font-size: 1.3rem;
+}
+.flow_store_order{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: .2rem;
+    font-size: .9rem;
+}
+.flowstoremap{
+    border:3px solid rgb(230,103,135);
+    border-radius: 8px;
+    padding: .2rem .5rem;
+    position: absolute;
+    top:1.5rem;
+    left:8rem;
+    font-weight: 600;
+}
+
+.flow_store_row{
+    color:rgb(0,173,255);
+}
+.flowstores{
+    margin-left: 5rem;
+    padding-bottom: 5rem;
+}
+.flow_real_number{
+    margin-left: .8rem;
+}

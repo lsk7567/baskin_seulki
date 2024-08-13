@@ -1,0 +1,97 @@
+.menu{
+    display: flex;
+}
+#menu{
+    font-size: 1.3rem;
+    color : #fff3;
+    padding-bottom: 1rem;
+}
+
+.menu_item{
+/*     border: 1px solid yellow;   */
+    padding-right: 1rem; 
+  
+}
+.menulists{
+/*     border: 1px solid red;  */
+    font-size : 0.8rem;
+}
+.footer_menu_text{
+    color : white;
+}
+.menulist{
+    padding-bottom: 0.6rem;
+    color : white;
+}
+
+.menuTitles{
+    display: flex;
+    margin-left : 1rem;
+/*    border : 1px solid black;  */
+
+}
+
+.menuTitle{
+    font-weight: 800;
+    font-size: 0.8rem;
+    justify-content: center;
+/*  border: 1px solid blue;  */  
+    padding: 1.3rem 0.5rem;
+
+}
+
+
+/* navbar */
+ .page_navbars_div{
+    position: relative;
+    margin-top: 20%;
+ }
+
+ .page_navbars{
+    display: flex;
+    justify-content: center;
+   /*  gap : 1rem; */
+/*   border : 1px solid red; */
+ }
+
+ .page_navbar_text{
+    font-size: 1.5rem;
+    font-weight: 600;
+   color : var(--pink-main); 
+   padding: 0.5rem 2rem 0.5rem 2rem;  
+ }
+
+ .page_navbar_text_active{
+    font-size: 1.5rem;
+    font-weight: 600;
+   color :white;
+ padding: 0.5rem 2rem 0.5rem 2rem;  
+   background-color: var(--pink-main); 
+}
+
+ .page_navbar{
+   /*  padding: 0.5rem 2rem 0.5rem 2rem;  */
+/*     width: 17rem; */
+/*     height: 3rem;; */
+    text-align: center;
+ }
+
+.page_cscenter_navbar:nth-of-type(2) .page_navbar_text{
+    font-size: 1.5rem;
+    font-weight: 600;
+   color :white;
+ padding: 0.5rem 2rem 0.5rem 2rem;  
+   background-color: var(--pink-main); ;
+}
+.page_praise_navbar:nth-of-type(3) .page_praise_text{
+    font-size: 1.5rem;
+    font-weight: 600;
+   color :white;
+ padding: 0.5rem 2rem 0.5rem 2rem;  
+   background-color: var(--pink-main); ;
+}
+
+
+ .page_navbar:not(:last-child){
+    border-right: 1px solid var(--pink-main);
+ }

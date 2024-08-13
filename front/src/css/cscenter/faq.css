@@ -1,0 +1,90 @@
+.eventcategory {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(177 177 177);
+}
+.category button{
+    font-size: 1.2rem;
+    font-weight: 800;
+    border: 1px solid rgb(177 177 177);
+    padding: 1rem 1rem;
+    width: 200px;
+    border-bottom: none;
+    border-radius: 8px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.event_active{
+    color: black;
+}
+.unactive{
+    color: rgb(177, 177, 177);
+}
+.qubox{
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: left;
+    font-size: 2rem;
+}
+.questions{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-top: 1px solid rgb(188,188,188);
+    border-bottom: 1px solid rgb(188,188,188);
+    font-size: 1rem;
+    gap: 2rem;
+    height: auto;
+}
+.answers{
+    overflow: hidden;
+    max-height: 0;
+    transition: all .3s ease;
+}
+.answers_open{
+    display: flex;
+    justify-content:left;
+    padding: 4rem;
+    padding-left: 1.5rem;
+    align-items: center;
+    gap: 3rem;
+    background-color: rgb(250,250,248);
+    border-top: 1px solid rgb(188,188,188);
+    border-bottom: 1px solid rgb(188,188,188);
+    transition: all ease 500ms;
+    font-size: 1rem;
+    height: auto;
+    max-width: 9999px;
+    transition: all .3s ease;
+
+}
+.qicon{
+    margin-left: 2rem;
+    margin: 1rem;
+    font-size: 2rem;
+}
+.qcolor{
+    color: rgb(255,149,180);
+}
+.acolor{
+    color: rgb(92,197,242);
+}
+.faqLists{
+    padding: 2rem 0;
+}
+.aonly{
+    font-size: .9rem;
+}
+.qonly{
+    width: 800px;
+}
+
+.showinganswer{
+    display: block;
+    font-weight: 600;
+    font-size: 3rem;
+    width: 50px;
+    text-align: center;
+    color:rgb(188,188,188);
+}

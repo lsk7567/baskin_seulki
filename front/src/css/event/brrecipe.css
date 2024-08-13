@@ -1,0 +1,176 @@
+.navbarlist .navbarrecipe:nth-child(1) button {
+    color:rgb(249,134,189) ;
+    background-color:white;
+}
+.navbarlist .navbarrecipe:nth-child(2) button {
+    width: 150px;
+    color:white ;
+    background-color:rgb(249,134,189);
+}
+.navbarlist li:nth-child(1) button {
+    border: none;
+}
+.eventcategory {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(177 177 177);
+}
+.category button{
+    font-size: 1.2rem;
+    font-weight: 800;
+    border: 1px solid rgb(177 177 177);
+    padding: 1rem 1rem;
+    width: 200px;
+    border-bottom: none;
+    border-radius: 8px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.event_active{
+    color: black;
+}
+.unactive{
+    color: rgb(177, 177, 177);
+}
+.recipebox{
+    border: 2px solid rgb(177 177 177);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+    width: 650px;
+}
+.recipe_text{
+    text-align: left;
+    font-weight: 600;
+}
+.recipe_category{
+    color: rgb(186,161,122);
+}
+.recipe_eng_name{
+    margin: .5rem 0;
+    width: 300px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:black;
+}
+.recipe_ko_name{
+    font-size: 1.3rem;
+    color: rgb(102,102,102);
+}
+.recipecontentsList{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.recipecontentsList a{
+    text-decoration: none;
+}
+.recipe_small_img{
+    border-radius: 10px;
+}
+
+/* 상세 페이지 */
+#recipe_detail{
+    text-align: center;
+}
+.recipedetail_bigtitle{
+    color: rgb(249,134,189);
+    margin-top: 2rem;
+    font-size: 4rem;
+    font-weight:bold;
+}
+.recipedetail_biginfo{
+    margin-top: 2rem;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+}
+.recipedetail_category{
+    margin-top: 4rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:  rgb(186,161,122);
+}
+.recipedetail_eng{
+    font-weight: 600;
+    font-size: 3rem;
+}
+.recipedetail_ko{
+    font-weight: 600;
+}
+
+.recipedetail_by{
+    margin-top: 2rem;
+    color: rgb(102,102,102);
+}
+.recipedetail_reason{
+    width: 770px;
+    padding: 0 1.9rem;
+    margin: 2rem auto 0;
+    color: rgb(102,102,102);
+}
+.recipedetail_mainimg{
+    margin-top: 3rem;
+}
+.recipedetail_iceinfo{
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem auto 3rem;
+    gap: 2rem;
+}
+.iceinfo_title{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: .8rem;
+}
+.iceinfos{
+    width: 220px;
+    text-align: left;
+    height: 100px;
+    margin-left: 1rem;
+}
+.recipedetail_smallimg{
+    border-radius: 100%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.15);
+}
+.recipedetail_ingredient, .recipedetail_make{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.recipedetail_ingre_title, .recipe_title{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.ingredientsList, .recipeLists{
+    list-style-type: disc;
+    text-align: left;
+    font-weight: 600;
+    line-height: 2rem;
+}
+.ingredient::marker{
+    color: rgb(177 177 177);
+    font-size: .8rem;
+}
+.recipeLists{
+    list-style-type:none;
+}
+.recipe_content{
+    color: rgb(102,102,102);
+    margin-bottom: 1.3rem;
+    font-weight:500;
+}
+.recipe_ices{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+}
+.backbtndetail{
+    margin-top: 2rem;
+}

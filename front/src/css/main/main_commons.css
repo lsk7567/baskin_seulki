@@ -1,0 +1,60 @@
+.title_parts{
+  padding-bottom: 2rem;
+}
+.homemain_title_ysw{
+  font-size: 4rem;
+  color: var(--pink-color-2);
+  margin-bottom: 0;
+}
+.desc{
+  color:var(--brown-color-3);
+}
+.navbarlist{
+  margin-top: 3rem;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+
+}
+.maincontent{
+ /*  border:1px solid red; */
+  padding-bottom:2rem;
+  text-align: center;
+}
+.navbartitle{
+  border-left: 1px solid rgb(249,134,189);
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgb(249,134,189);
+  cursor: pointer;
+  width: 120px;
+  height: 28px;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+}
+
+.bigtitleninfo{
+  text-align: center;
+  margin-top: 3rem;
+}
+.bigTitle{
+  /* border: 1px solid blue; */
+  font-size: 5rem;
+  color: rgb(249,134,189);
+  margin-bottom: 0;
+  font-weight: 900;
+}
+.bigInfo{
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 2.5rem;
+  color:rgb(249,134,189);
+  /* border: 2px solid blue; */
+}
+a{
+  text-decoration: none;
+  color: black;
+}

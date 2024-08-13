@@ -1,0 +1,16 @@
+.benefitList{
+  /* border: 2px solid red; */
+  display: flex;
+  gap: 2rem;
+}
+.benefitimage{
+  border-radius: 8px;
+}
+/* 캐러셀 */
+.benefitcarousel{
+  /* border: 2px solid blue; */
+  margin-top: 1rem;
+  width: 1280px;
+  margin: 1rem auto;
+  overflow: hidden;
+}

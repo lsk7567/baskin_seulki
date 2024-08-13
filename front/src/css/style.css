@@ -1,0 +1,39 @@
+:root {
+  --pink-color-1: #ffb3c3;
+  --pink-color-2: #ff4d72;
+  --pink-color-3: #ff7c98;
+  --point-color: var(--pink-color-2);
+  --brown-color-1: #41332c;
+  --brown-color-2: #2f231c;
+  --brown-color-3: #948780;
+  --gray-color-1: #d4d4d4;
+}
+
+/* commons */
+* {
+  font-family: "Noto Sans KR";
+  box-sizing: border-box;
+}
+.content {
+  width: 1500px;
+  margin: auto;
+  margin-top: 350px;
+  margin-bottom: 150px;
+}
+
+.header,
+.footer,
+body,
+div,
+nav,
+ul,
+li,
+p,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}

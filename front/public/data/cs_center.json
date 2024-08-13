@@ -1,0 +1,30 @@
+[
+    {
+        "title":"자주하는 질문",
+        "img":"/images/cs_center/icon_faq_1.png",
+        "info":"제품과 포인트, 회원 혜택 등 제품과 사이트에 대해 궁금한 점이 있다면 FAQ를 확인하세요!",
+        "btn":"FAQ",
+        "link":"/cscenter/faq"
+    },
+    {
+        "title":"1:1 문의",
+        "img":"/images/cs_center/icon_faq_2.png",
+        "info":"자주하는 질문에 원하는 답이 없으시다면 1:1 문의하기를 통해 남겨주세요! 고객님의 문의사항 확인 후 최대한 빠른 시일 내에 답변 드리도록 하겠습니다!",
+        "btn":"1:1문의하기",
+        "link":"/login"
+    },
+    {
+        "title":"소비자분쟁 해결기준",
+        "img":"/images/cs_center/icon_faq_3.png",
+        "info":"공정거래 위원회 고시 소비자분쟁 해결 기준에 의거하여 정당한 소비자 피해에 대한 교환 또는 구입가 환불이 가능합니다.",
+        "btn":"소비자 분쟁 해결 기준",
+        "link":"https://www.kca.go.kr/odr/cm/in/rsltnCrtral.do"
+    },
+    {
+        "title":"소비자 중심경영 우수기업 (CCM)",
+        "img":"/images/cs_center/icon_faq_4_new.png",
+        "info":"배스킨라빈스는 고객중심경영 철학을 바탕으로 고객의 소리를 적극 경청하고 '소비자중심경영(CCM)'을 통해 소비자 친화적 경영 노력과 고객만족향상 활동을 지속적으로 실천하고 있습니다." ,
+        "btn":"FAQ",
+        "link":"https://www.kca.go.kr/ccm/certSystemOutlineView.do"
+    }
+]

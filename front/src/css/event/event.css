@@ -1,0 +1,134 @@
+.eventcategory {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(177 177 177);
+}
+.category button{
+  font-size: 1.2rem;
+  font-weight: 800;
+  border: 1px solid rgb(177 177 177);
+  padding: 1rem 1rem;
+  width: 200px;
+  border-bottom: none;
+  border-radius: 8px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.box{
+  margin-top: 2rem;
+  border: 1px solid rgb(219, 213, 202);
+  border-radius: 8px;
+  width: 700px;
+  height: 297px;
+  display: flex;
+}
+.texts{
+  display: inline;
+  margin-top: 5rem;
+  height: 180px;
+  padding: 0 1.4rem;
+  margin-left: .5rem;
+}
+.boxcategorypm,.boxcategorybn, .boxtitle, .boxdate{
+  text-align: left;
+}
+.boxcategorybn{
+  color: rgb(255,143,201);
+  font-weight: 600;
+}
+.boxcategorypm{
+  color: rgb(101,204,255);
+  font-weight: 600;
+}
+.boxtitle{
+  font-size: 1.35rem;
+  margin: 0.5rem 0;
+}
+.boxdate{
+  color: rgb(102, 102, 102);
+}
+.imagebox{
+  position: relative;
+}
+.boximage{
+  border-radius: 8px;
+}
+.order {
+  /* border: 1px solid blue; */
+  display: flex;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.event_active{
+  color: black;
+  ;
+}
+.unactive{
+  color: rgb(177, 177, 177);
+}
+button{
+  background-color: transparent;
+}
+
+.eventbar:nth-child(1) button, .eventdetailnavbar:nth-child(1) button {
+  color: white;
+  background-color:rgb(249,134,189);
+}
+.Titlebox{
+  margin: 1rem 0;
+}
+.detailEvent{
+  font-size: 6rem;
+  color: rgb(249,134,189);
+  margin: 0;
+  margin-bottom: 2rem;
+}
+.detailcategory{
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: .4rem;
+}
+.detailTitle{
+  margin: 0;
+  font-size: 2rem;
+  color:rgb(68, 68, 68);
+}
+.detaildate{
+  color: rgb(104,103,102);
+  font-size: .5rem;
+}
+.detailNotice{
+  padding: 1rem 0;
+  width: 800px;
+  text-align: left;
+  margin-left: 1rem;
+  font-size: .7rem;
+  color: rgb(177, 177, 177);
+}
+#eventDetail{
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.detailimg{
+  margin: 2rem 0;
+}
+.backbtn{
+  margin-top: 2rem;
+  background-color: black;
+  width: 120px;
+  padding: .8rem 1rem;
+  border-radius: 20px;
+}
+.btncontent{
+  color:white;
+  font-weight: 600;
+}
+.promotionfirst:nth-child(1) button, .benefitfirst:nth-child(1) button{
+  width: 150px;
+  color:white ;
+  background-color:rgb(249,134,189);
+}
+.detailNotice_title{
+  margin-bottom: 1rem;
+}

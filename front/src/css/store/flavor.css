@@ -1,0 +1,170 @@
+
+.flavor_title{
+    margin-top: 10rem;
+    display:inline-block;
+    width: 250px;
+    height: 250px;
+    background-image: url("../../../public/images/brstore/brstore_100flavor_title1.png");
+    background-repeat: no-repeat;
+    color: transparent;
+}
+.adtitles{
+    margin:0 auto;
+    width: 800px;
+    height: 500px;
+    display: block;
+    background-image: url("../../../public/images/brstore/brstore_100flavor_title2.png");
+    background-repeat: no-repeat;
+    background-position: right ;
+}
+
+.flavorimages{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+.left, .right{
+    display: flex;
+    gap: 2rem;
+}
+.right{
+    position: absolute;
+    top: 12rem;
+    right:0;
+}
+.imagetext{
+    width: 420px;
+    margin-top: 8rem;
+    /* border: 1px solid red; */
+    text-align: left;
+
+}
+.imagetitle{
+    /* border: 1px solid blue; */
+    color:rgb(230, 103, 135);
+    width: 420px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.imageinfo{
+    /* border:1px solid green; */
+    font-size: .9rem;
+    color: rgb(166, 153, 153);
+    font-weight: 600;
+    padding: 0 4rem 0 0rem;
+}
+.right .imagetext{
+    text-align: right;
+}
+.right .imageinfo{
+    padding: 0 0rem 0 3rem;
+}
+.flavor_carousel{
+    margin-top: 20rem;
+}
+.storeCategories {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(177 177 177);
+}
+.category button{
+    font-size: 1.2rem;
+    font-weight: 800;
+    border: 1px solid rgb(177 177 177);
+    padding: 1rem 1rem;
+    width: 200px;
+    border-bottom: none;
+    border-radius: 8px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.flavorstores{
+    margin-left: 12rem;
+    width: 630px;
+    text-align: left;
+}
+.store_info_list{
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+.store_info_title{
+    color: rgb(237, 145, 167);
+}
+.store_info_name{
+    font-size: 1.4rem;
+}
+.store_info_address, .store_info_number, .store_info_time{
+    /* border: 1px solid green; */
+    margin-left: 1.5rem;
+}
+.store_info_service{
+    width: 300px;
+}
+.active{
+    color: black;
+    ;
+}
+.unactive{
+    color: rgb(177, 177, 177);
+}
+.carouselList{
+    display:flex;
+    text-align:left;
+    width:780px
+}
+.carousel_menu{
+    margin:.5rem 0;
+    font-weight:600;
+    color: rgb(237, 145, 167);
+}
+.carousel_desc{
+    width:380px;
+    font-size:.8rem;
+    padding-right:1.5rem;
+    font-weight:600;
+}
+.carousel_content{
+    padding:3rem 0;
+    display:flex;
+    gap:1rem;
+}
+.display{
+
+    width:380px;
+    overflow:hidden;
+}
+.dotList{
+    margin-top: 5rem;
+    height: 90px;
+}
+.dot_active{
+    font-size: 1.2rem;
+    color: var(--pink-color-2);
+    cursor: pointer;
+    background-color: transparent;
+}
+.dot_unactive{
+    font-size: 1.2rem;
+    color: var(--pink-color-1);
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.flavor_map{
+    border: 4px solid rgb(237, 145, 167); 
+    border-radius: 8px;
+    font-weight: 600;
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+}
+.flavornavbar:nth-child(1) button{
+    color: white;
+    background-color:rgb(249,134,189)
+}

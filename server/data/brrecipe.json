@@ -1,0 +1,373 @@
+[
+    {
+        "id":"1",
+        "category":"셰프 & 파티시에",
+        "kotitle":"베이크드 알래스카",
+        "engtitle":"Baked Alaska",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/baked_alaska_small.png",
+        "date":"2023-07-04",
+        "author":"김범주 셰프",
+        "intro":"저에게 배스킨라빈스는 어릴 적 특별한 날에 부모님을 졸라 사 먹을 수 있던 고급 아이스크림이었어요. 이 레시피는 배스킨라빈스의 고급스러운 분위기는 살리되, 저만이 선보일 수 있는 요리는 무엇일지 생각하다 떠올랐답니다. 동양적인 플레이버의 ‘나주배 소르베’와 ‘오가닉 바닐라’를 선택했는데, 소르베와 아이스크림이 입안에서 어우러지는 느낌이 색다르면서도 좋아요!",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/baked_alaska_main.png",
+        "ice":[
+            {
+                "name":"나주배 소르베",
+                "info":"나주배를 그대로 갈아만든 시원하고 달콤한 맛",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/baked_alaska_ice1.png"
+            },
+            {
+                "name":"오가닉 바닐라",
+                "info":"부드럽고 깔끔한 유기농 바닐라 아이스크림",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/baked_alaska_ice1.png"
+            }
+        ],
+        "ingredients":["이탈리안 머랭 (설탕 80g, 달걀흰자 50g, 물 8g)","코코넛 다쿠아즈 (달걀흰자 150g, 설탕 45g, 코코넛 파우더 200g, 박력분 20g, 슈가파우더 112g))"],
+        "recipe":["1. 머랭 분량의 설탕과 물을 냄비에 넣고 끓여 시럽을 만든다.","2. 휘핑하고 있는 달걀흰자에 ①을 부어 이탤리언 머랭을 만든다.","3. 코코넛 다쿠아즈 분량의 달걀 흰자와 설탕을 머랭을 만든 뒤, 나머지 재료를 체에 걸려 넣고 섞는다.","4. ③을 파이핑한 다음 190℃로 예열한 오븐에 8분간 굽는다.","5. 두 가지 아이스크림을 각각 몰드에 넣어 얼린 뒤 합친다.","6. 다쿠아즈를 깔고 ②의 이탤리언 머랭으로 파이핑 한 다음 그랑마니에를 부어 플람베 하거나 토치로 그을려 준다."]
+    },
+    {
+        "id":"2",
+        "category":"셰프 & 파티시에",
+        "kotitle":"피나콜라다 파르페",
+        "engtitle":"Pina Colada Parfait",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/pina_colada_parfait_small.png",
+        "date":"2023-07-04",
+        "author":"김범주 셰프",
+        "intro":"아이스크림은 무조건적인 최애 디저트가 아닐까요? 새콤달콤함은 물론 입안에서 시원하게 사라지는 텍스처가 사계절 내내 매력을 뽐내죠. 이 파르페는 여름 시즌에 어울리는 디저트로,‘망고탱고’와 ‘피나 콜라다’를 이용하여 트로피컬한 느낌을 살렸어요. 모든 레이어를 함께 먹기보다는 위에서부터 나눠 먹는 것을 추천해요. 3개의 파트로 구성돼 마치 코스 디저트를 먹는 기분을 느낄 수 있답니다.",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/pina_colada_parfait_main.png",
+        "ice":[
+            {
+                "name":"망고탱고",
+                "info":"부드럽고 상큼한 열대과일, 입안 가득 진한 망고 향이 가득!",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/pina_colada_parfait_ice1.png"
+            },
+            {
+                "name":"피나 콜라다",
+                "info":"상큼한 파인애플 & 코코넛 샤베트에 파인애플이 쏙쏙",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/pina_colada_parfait_ice2.png"
+            }
+        ],
+        "ingredients":["망고탱고 35g, 피나 콜라다 35g","파인애플 세이지 크림(파인애플 세이지 3.5g, 젤라틴 1.25장, 생크림 250g, 슈가파우더 50g, 설탕 50g)","고수 그라니따 (귤 주스 300g, 젤라틴 0.25장, 물 25g, 설탕 25g, 고수 35g, 민트 20g, 라임 주스 25g)","망고 파인애플 콤포트 (망고 100g, 파인애플 100g, 설탕 20g, 민트 3g)","코코넛 머랭 (달걀흰자 80g, 설탕 80g, 슈가 파우더 80g, 코코넛 파우더 20g)"],
+        "recipe":["1. 생크림을 50°;C로 가열한 다음 분량의 슈가파우더와 설탕을 넣어준다.","2. ①에 불린 젤라틴을 넣고 파인애플 세이지와 같이 갈아준 다음 체에 걸러 식힌 뒤 하루동안 냉장고에 보관해 파인애플 세이지 크림을 만든다.","3. 물과 설탕을 1:1로 섞은 시럽을 데운 다음 불린 젤라틴을 녹이고 잘게 자른 고수잎과 민트잎, 귤 주스, 라임 주스를 넣고 잘 섞어 얼린 뒤 갈아준다.","4. 코코넛 머랭 분량의 재료를 믹싱볼에 넣어 섞어준 다음 파이핑해서 85°;C 오븐에 2시간 말린다.","5. 코코넛 워터를 50°;C로 가열한 뒤 설탕과 불린 젤라틴을 넣고 체에 걸러 레몬 제스트와 함께 섞어 냉장고에서 굳힌다.","6. 파르페잔에 코코넛 젤리를 넣은 뒤 망고 파인애플 콤포트, 고수 그라니따, 망고탱고, 피나 콜라다 순으로 올리고 코코넛 머랭을 얹어 마무리한다."]
+    },
+    {
+        "id":"3",
+        "category":"셰프 & 파티시에",
+        "kotitle":"참숯 카라멜 아이스크림",
+        "engtitle":"Charcoal-flavored Caramel Ice Cram",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/caramel_icecream_small.png",
+        "date":"2023-07-04",
+        "author":"김세경 셰프",
+        "intro":"차콜을 활용한 컨템퍼러리 다이닝을 선보이는 <세스타>의 특색을 살려 아이스크림에 숯 향을 입힌 디저트를 만들어보았습니다. 달콤한 ‘카라멜 리본’ 플레이버에 캔디 베이컨을 더해 ‘단짠’의 묘미도 만끽할 수 있답니다.",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/caramel_icecream_main.png",
+        "ice":[
+            {
+                "name":"카라멜 기본",
+                "info":"바닐라향 아이스크림과 크림 카라멜 리본이 어우러진 제품",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/caramel_icecream_ice.png"
+            }
+        ],
+        "ingredients":["카라멜 리본 100g","캔디 올리브 20g(깔라만타 올리브 300g, 설탕 200g, 물 200g)","캔디드 베이컨 (베이컨 100g, 갈색 설탕 30g)","차콜 플레이버 카라멜 (물 20ml, 설탕 125g, 생크림 200ml, 참숯 30g, 버터 10g)","헤이즐넛 크럼블 (밀가루 125g, 버터 125g, 설탕 130g, 헤이즐넛 파우더 95g, 소금 3g (시판 쿠키를 부셔서 활용해도 좋음))"],
+        "recipe":["1. 얇은 베이컨은 위, 아래로 갈색 설탕을 뿌린 뒤 130 ℃ 오븐에 15-20분 구워 캔디드 베이컨으로 만든다.","2. 생크림을 넣은 냄비에 불이 붙은 참숯을 넣고 뚜껑을 닫는다. 10-20분 숯향을 입힌 뒤 체에 걸러 참숯을 제거한다.","3. 냄비에 설탕과 물을 넣고 약불에 끓여 카라멜을 만든다. 여기에 숯향을 입힌 생크림을 넣고 섞어준다.","4. 마지막으로 버터를 넣는다. 버터가 녹은 뒤 불을 끄고 자연스럽게 식혀주면 차콜 플레이버 카라멜 완성.","5. 헤이즐넛 파우더와 밀가루를 체에 거른 뒤, 설탕과 소금을 넣고 섞어준다","6. 작게 자른 버터를 넣은 뒤 버터가 자연스럽게 녹도록 두손으로 반죽해준다.","7. 반죽을 상온에 2시간 정도 말린 뒤, 170 ℃ 오븐에 10-15분 구우면 헤이즐넛 크럼블 완성.","8. 접시에 헤이즐넛 크럼블을 깐 뒤, 카라멜 리본을 퀴넬 모양으로 올린다. 그 위에 차콜 플레이버 카라멜을 뿌리고, 마지막으로 캔디드 베이컨을 울려준다."]
+    },
+    {
+        "id":"4",
+        "category":"셰프 & 파티시에",
+        "kotitle":"다쿠아즈 아이스크림 샌드",
+        "engtitle":"Dacquoise Ice Cream Sand",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/icecream_sand_small.png",
+        "date":"2023-07-04",
+        "author":"김은희 셰프",
+        "intro":"뻥튀기에 아이스크림을 넣어 샌드처럼 먹는 방식을 고안하여 집에서 작은 오븐으로 간단하게 만들 수 있는 다쿠아즈 디저트를 만들어보았습니다. 피스타치오와 아몬드의 씹는 맛, 그리고 고소함을 동시에 느낄 수 있을 거예요.",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/icecream_sand_main.png",
+        "ice":[
+            {
+                "name":"피스타치오 아몬드",
+                "info":"피스타치오 향과 아몬드가 만나 고소함이 두 배!",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/icecream_sand_ice1.png"
+            }
+        ],
+        "ingredients":["피스타치오 아몬드","아몬드가루 80g","분당 50g","박력분 11g","계란흰자 100g","설탕 50g","피스타치오 8알"],
+        "recipe":["1.아몬드 가루, 분당, 박력분은 체에 2번 내린다.","2. 흰자는 거품기로 설탕을 3번 나누어 머랭을 친다.","3. 머랭은 100%로 올린다.","4. ①을 머랭에 넣고 너무 많이 반죽하지 않도록 섞어준다.","5. 머랭틀에 물을 묻히고, 반죽을 넣고 윗면을 평평하게 다듬어 틀을 제거한다.","6. 윗면에 분당을 뿌리고 다진 피스타치오를 얹는다.","7. 180℃로 예열된 오븐에 12분간 굽는다.","8. 식혀서 먹기전 아이스크림을 샌드한다."]
+    },
+    {
+        "id":"5",
+        "category":"셰프 & 파티시에",
+        "kotitle":"코코 후레즈",
+        "engtitle":"Coco Fraise",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/coco_fraise_small.png",
+        "date":"2023-07-03",
+        "author":"오오츠카 테츠야 & 이민선 셰프",
+        "intro":"딸기 과육이 들어있어 산뜻한 스트로베리 소르베를 활용해 집에서도 간단하면서도 만들 수 있는 디저트를 구상해봤습니다. 달콤한 코코넛과 화사한 장미 향이 소르베의 맛을 더욱 돋궈 준답니다. 붉은 색감이 화사하기 때문에 손님을 위한 근사한 디저트로도 손색 없어요.",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/coco_fraise_main.png",
+        "ice":[
+            {
+                "name":"스트로베리 소르베",
+                "info":"스트로베리 소르베 속에 상큼한 스트로베리 과육이 쏙쏙",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/coco_fraise_ice1.png"
+            }
+        ],
+        "ingredients":["스트로베리 소르베 120g","쥬 드 후레즈(딸기 500g, 설탕 50g, 로즈 시럽 적당량)","샹티 (코코 생크림 100g, 코코넛 시럽 15g)"],
+        "recipe":["1. 딸기와 설탕을 볼에 넣고 적당히 섞어준 뒤, 볼을 랩으로 감싸고, 약불에 1시간 중탕한다.","2. ①을 체에 거른 후, 냉장고에 차갑게 식힌다. 취향대로 로즈 시럽을 적당량 섞어주면 &lsquo;쥬 드 후레즈&rsquo; 완성.","3. 차가운 생크림에 코코넛 시럽을 넣고 부드러운 크림이 될 때까지 휘핑한 뒤 다시 냉장고에 두면 샹티 코코 크림 완성.","4. 스프 볼 등에 차갑게 식힌 쥬 드 후레즈를 바닥이 잠길 정도로 넣는다.","5. 중앙에 스트로베리 소르베를 한 스쿱 올린 뒤, 그 위로 샹티 코코 크림을 얹어준다."]
+    },
+    {
+        "id":"6",
+        "category":"셰프 & 파티시에",
+        "kotitle":"아이스크림과 사랑에 빠진 홍시",
+        "engtitle":"Dried Persimmon Falls in Love with Ice Cream",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/persimmon_icecream_small.png",
+        "date":"2023-06-29",
+        "author":"임정식 셰프",
+        "intro":"아이스크림은 플레이팅으로 표현할 수 있는 최고의 디저트 컨디먼트라고 생각해요.초콜릿, 과일, 여러 유제품 등 원하는 맛을 활용해 무궁무진한 변화를 꾀할 수 있는 것이 그 이유죠.저는 과일과 유제품이 잘 어우러진 플레이버를 선호하는데, 우유 베이스에 진한 치즈케이크의 풍미가 어우러진 ‘뉴욕 치즈케이크’와 그에 어울리는 고소한 풍미가 진한 잣을 넣은 크럼블, 달콤한 아이스 홍시를 조합해 각 재료의 매력을 살렸어요.",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/persimmon_icecream_main.png",
+        "ice":[
+            {
+                "name":"뉴욕 치즈케이크",
+                "info":"부드럽게 즐기는 뉴욕식 정통 치즈케이크 아이스크림",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/persimmon_icecream_ice1.png"
+            }
+        ],
+        "ingredients":["뉴욕 치즈케이크 1스쿱","아이스 홍시 1개","잣크럼블 (중력분 48g, 버터 40g, 황설탕 28g, 소금 0.3g, 시나몬파우더 0.4g, 잣 8g)"],
+        "recipe":["1. 크럼블 분량의 재료를 모두 섞어 얼린 후, 푸드프로세서로 버터가 작은 덩어리가 될때까지 갈고 철판에 넓게 펼친다.","2. ①을 170℃로 예열한 오븐에 넣고 16분간 굽는다.","3. 접시에 구운 잣 크럼블을 깔고 뉴욕 치즈케이크 아이스크림 1스쿱과 아이스 홍시를 올린다."]
+    },
+    {
+        "id":"7",
+        "category":"바리스타 & 바텐더",
+        "kotitle":"초콜릿 무스 마티니",
+        "engtitle":"Chocolate Mousse Martini",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/chocolate_martini_small.png",
+        "date":"2023-06-22",
+        "author":"김봉하 바텐더",
+        "intro":"가족 모두가 ‘베라 러버’라서 평소에 배스킨라빈스 아이스크림을 종종 즐기는 편이에요. 다양한 맛 중에서도 제가 가장 좋아하는 초콜릿 무스를 마티니 레시피에 접목시켜 봤어요. 깊은 달콤함이 감도는 초콜릿과 향긋한 커피가 조화를 이루는 마티니를 음미해보세요.",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/chocolate_martini_main.png",
+        "ice":[
+            {
+                "name":"초콜릿 무스",
+                "info":"초콜릿 칩을 곁들여 더욱 진한 초콜릿 무스",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/chocolate_martini_ice1.png"
+            }
+        ],
+        "ingredients":["럼 30ml","에스프레소 2샷","설탕 시럽 20ml","초콜릿 무스 50g"],
+        "recipe":["1. 차갑게 보관한 마티니 글라스에 초콜릿 무스 아이스크림을 넣는다.","2. 셰이커에 각 재료를 넣고 얼음과 함께 셰이킹한다.","3. 초콜릿 무스 주변으로 칵테일 내용물만 여과하여 담는다.","4. 커피빈을 칵테일 가운데 올려 마무리한다."]
+    },
+    {
+        "id":"8",
+        "category":"바리스타 & 바텐더",
+        "kotitle":"눈빛만 봐도 우린 쌀떡궁합 ",
+        "engtitle":"We're a Perfect Match like SSAL TTEOK",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/ssaltteok_small.png",
+        "date":"2023-06-22",
+        "author":"김수경 바텐더",
+        "intro":"아이스크림은 희로애락이 가득 담긴 예술작품이라고 생각해요. 새콤달콤하고 시원한 아이스크림 한 입이면 어떤 감정 상태도 행복한 순간으로 만들어주기 때문이죠. 이 레시피는 ‘떡’이라는 아이템을 사용해 끈끈한 연인 사이의 관계를 표현해 봤어요.제조 과정 중 찌는 과정이 포함되어 있는 데킬라를 결합하니 재밌는 칵테일이 탄생했답니다.",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/ssaltteok_main.png",
+        "ice":[
+            {
+                "name":"쌀떡궁합",
+                "info":"고소한 쌀 아이스크림과 콩고물 아이스크림에 쫀득한 떡과 곡물이 가득~",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/ssaltteok_ice1.png"
+            }
+        ],
+        "ingredients":["데킬라 50ml","쌀떡궁합 1스쿱","살구 10ml","팔레넘 10ml","시트르산 15ml","우유 15ml"],
+        "recipe":["1. 데킬라, 쌀떡궁합 아이스크림, 살구, 팔레넘, 시트르산, 우유를 모두 넣고 상온에서 1시간, 냉장고에서 2시간 보관한다.","2. 액체가 분리되면 커피필터로 ①을 걸러낸다.","3. 완성된 ②의 음료를 잔에 담는다."]
+    },
+    {
+        "id":"9",
+        "category":"바리스타 & 바텐더",
+        "kotitle":"오레오호퍼",
+        "engtitle":"Oreohopper",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/oreohopper_small.png",
+        "date":"2023-06-22",
+        "author":"김용주 바텐더",
+        "intro":"아이스크림을 잔뜩 사뒀다가 맛이 변해버린 경험은 누구나 한번씩 가지고 있지요.녹인 아이스크림을 칵테일에 활용해 언제든 맛있게 즐길 수 있는 레시피를 준비해봤어요.식후주로 유명한 클래식 칵테일 ‘그래스호퍼’에 민트 초코와 과일, 판단을 더해 변주했습니다.",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/oreohopper_main.png",
+        "ice":[
+            {
+                "name":"오레오 쿠키 앤 민트",
+                "info":"쿨~한 민트 아이스크림에 달콤한 오레오 쿠키와 초콜릿 리본이 어우러진 맛",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/oreohopper_ice.png"
+            }
+        ],
+        "ingredients":["오레오 쿠키 앤 민트 아이스크림 150g","크렘드 카카오 브라운 리큐르 600ml","크렘 드 멘트 그린 리큐르 240ml","얼린 망고 300g","페르넷 브란카 멘타 200ml","모닌 판단 시럽 150ml","크림 300ml","우유 600ml","레몬 120ml"],
+        "recipe":["1. 레몬을 제외한 모든 재료를 넣고 블렌더로 잘 갈아준다.","2. ①에 레몬을 넣어준 뒤 냉장고에서 24시간 숙성한다.","3. ②를 커피 필터로 투명해질 때까지 걸러준다."]
+    },
+    {
+        "id":"10",
+        "category":"바리스타 & 바텐더",
+        "kotitle":"버번 베이컨 봉봉",
+        "engtitle":"Bourbon Bacon Bon Bon",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/bonbon_small.png",
+        "date":"2023-06-22",
+        "author":"박성민 바텐더",
+        "intro":"에어프라이어를 활용한 레시피로, 베이컨에 설탕을 뿌려 바삭바삭하게 구워낸 후 아이스크림과 곁들여먹는 디저트입니다. 스모키 한 베이컨 향과 오독오독한 식감의 아몬드의 조화가 매력적이에요.",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/bonbon_main.png",
+        "ice":[
+            {
+                "name":"아몬드 봉봉",
+                "info":"바닐라향 아이스크림에 초코 아몬드가 가득!",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/bonbon_ice1.png"
+            }
+        ],
+        "ingredients":["아몬드 봉봉","베이컨 1줄","황설탕 2T"],
+        "recipe":["1. 베이컨 위에 황설탕 1T를 뿌리고 125℃로 맞춘 에어프라이어에서 10분간 구워준다.","2. ①에 황설탕 1T를 뿌리고 오븐에서 다시 10분간 구워준다.","3. 아이스크림 볼에 아몬드 봉봉 한 스쿱을 담고 그 위에 바삭바삭하게 구워진 베이컨을 올려주면 완성된다."]
+    },
+    {
+        "id":"11",
+        "category":"바리스타 & 바텐더",
+        "kotitle":"월넛 크림 커피",
+        "engtitle":"Walnut Cream Coffee",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/walnut_cream_coffee_small.png",
+        "date":"2023-06-21",
+        "author":"송성민 바리스타",
+        "intro":"물리적으로 잘 섞이지 않지만 입안에서 섞이면 맛의 조화와 깊이가 뛰어난 두 재료, 콜드브루와 월넛 아이스크림으로 만든 크림을 조합해 봤습니다. 부드러운 질감의 크림부터 콜드브루의 풍미까지 한번에 즐길 수 있지요. 토핑으로 올린 인도 통후추는 스파이시한 향으로 자칫 느끼할 수 있는 호두 크림의 맛을 잡아준답니다.",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/walnut_cream_coffee_main.png",
+        "ice":[
+            {
+                "name":"월넛",
+                "info":"고소하고 향긋한 호두 아이스크림에 호두가 듬뿍 들어있는 제품",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/walnut_cream_coffee_ice1.png"
+            }
+        ],
+        "ingredients":["월넛 아이스크림 40g","식물성 휘핑 크림 80g","디카페인 콜드브루 60g","물 60g","설탕 시럽 10g"],
+        "recipe":["1. 디카페인 콜드브루, 물, 설탕 시럽을 섞고 사용할 컵에 옮겨둔다.","2. 월넛 아이스크림과 식물성 휘핑 크림 80g을 거품기로 1분간 잘 섞어준다.","3. 커피 위에 월넛 아이스크림과 식물성 휘핑으로 만든 크림을 천천히 올려주고, 곱게 간 통후추를 크림 위에 장식해 마무리한다."]
+    },
+    {
+        "id":"12",
+        "category":"바리스타 & 바텐더",
+        "kotitle":"그린티 타임",
+        "engtitle":"Green Tea Time",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/green_tea_small.png",
+        "date":"2023-06-21",
+        "author":"이동환 바텐더",
+        "intro":"<기슭>이 위치한 불광동 지역 할머니들은 연신내역 5번 출구에 위치한 배스킨라빈스 매장을 즐겨 방문하십니다. 이에 착안해 차가운 음식이 부담스러운 중년층을 위한 냉차 레시피를 만들어보았어요. 보통 따뜻하게 마시는 녹차를 시원하게도 즐겨보세요.",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/green_tea_main.png",
+        "ice":[
+            {
+                "name":"그린티",
+                "info":"엄선한 녹차를 사용한 싱그러운 그린티 아이스크림",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/green_tea_ice1.png"
+            }
+        ],
+        "ingredients":["그린티 아이스크림 3/4파트","녹차를 우려낸 보드카 1파트","레몬주스 1/2파트","설탕 시럽 1/2파트"],
+        "recipe":["1. 녹차티백을 보드카에 하루 동안 우려낸 후 걸러준다. 그린티 아이스크림도 실온에 두고 천천히 녹여준다.","2. 레몬주스와 설탕 시럽을 녹인 그린티 아이스크림과 섞고, 냉장고에 하루 동안 넣어둔다.","3. ②를 커피 필터로 맑게 걸러준 후 찻잔에 따르면 완성이다. + 잔 받침에 녹차와 드라이아이스를 담아두면 녹차 향기를 함께 즐길 수 있다."]
+    },
+    {
+        "id":"13",
+        "category":"인플루언서",
+        "kotitle":"바닐라와 올리브 오일",
+        "engtitle":"Vanilla & Olive Oil",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/vanilla_olive_small.png",
+        "date":"2023-06-21",
+        "author":"박세리 감독",
+        "intro":"먹는데 진심이다 보니 평소 집에 있는 양념 재료들로 다양한 시도를 해보는 것을 좋아해요.우연히 아이스크림에 엑스트라 올리브 오일을 곁들여봤는데 생각지도 못한 환상의 조합이었어요. 고소한 올리브 오일과 매콤한 후추가 바닐라 아이스크림 본연의 풍미를 더 깊게 해주죠. 약간 더 스파이시한 올리브 오일을 선택하면 좋고, 좀 더 매콤한 풍미를 원한다면 백후추 대신 흑후추를 써도 괜찮습니다.",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/vanilla_olive_main.png",
+        "ice":[
+            {
+                "name":"오가닉 바닐라",
+                "info":"부드럽고 깔끔한 유기농 바닐라 아이스크림",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/baked_alaska_ice1.png"
+            }
+        ],
+        "ingredients":["바닐라 오가닉 120g","엑스트라 버진 올리브 오일 300g","백후추 적당량","웨이퍼롤(취향에 따라 준비)"],
+        "recipe":["1. 아이스크림 컵에 바닐라 오가닉을 둥글게 올린다.","2. 엑스트라 버진 올리브 오일을 뿌려준다.","3. 백후추를 취향 껏 뿌리고, 웨이퍼롤 등 본인이 좋아하는 토핑을 자유롭게 올린다."]
+    },
+    {
+        "id":"14",
+        "category":"인플루언서",
+        "kotitle":"나주배 셰이크",
+        "engtitle":"Najubae Shake",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/najubae_small.png",
+        "date":"2023-06-21",
+        "author":"김한민 요리 연구가",
+        "intro":"배의 과육을 통째로 갈아 만든 것 같은 달콤 시원한 맛의 ‘나주배 소르베’도 유지방 없이 즐길 수 있는 인기 플레이버죠. 여기에 두유와 코코넛 크림을 조합해 고소하면서도 크리미한 풍미를 더했고, 싱그러운 민트도 곁들여 봤어요",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/najubae_main.png",
+        "ice":[
+            {
+                "name":"나주배 소르베",
+                "info":"나주배를 그대로 갈아만든 시원하고 달콤한 맛",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/najubae_ice1.png"
+            }
+        ],
+        "ingredients":["나주배 소르베 100g","무첨가 두유 100g","코코넛 크림 20g","민트잎 적당량"],
+        "recipe":["1. 준비한 분량의 나주베 소르베와 무첨가 두유, 코코넛 크림을 믹서에 넣고 갈아준다.","2. 민트잎을 가니시로 올려 마무리한다."]
+    },
+    {
+        "id":"15",
+        "category":"인플루언서",
+        "kotitle":"메리 고 라운드",
+        "engtitle":"Merry-go-round",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/merry_small.png",
+        "date":"2023-06-21",
+        "author":"박지연 인플루언서(집밥둘리)",
+        "intro":"보기만 해도 입안에 침이 고이는 다채로운 색의 아이스크림으로 어린이들도 즐기기 좋은 샌드형 아이스크림을 만들었어요. 카스텔라가 아이스크림과 단팥의 달큼함을 잡아줘 나도 모르게 두 세 개씩 집어먹게 되는 신비한 매력을 가진 디저트랍니다! 회전목마를 타던 어린시절의 추억을 아이스크림으로 표현하고 싶었어요",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/merry_main.png",
+        "ice":[
+            {
+                "name":"벅스 버니버니 당근당근",
+                "info":"부드러운 크림치즈 아이스크림에 당근 쿠키 크럼블, 구운 피칸 & 월넛, 크랜베리 리본이 어우러진 맛",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/merry_ice1.png"
+            }
+        ],
+        "ingredients":["벅스 버니버니 당근당근","시판용 카스텔라 100g","단팥 2T"],
+        "recipe":["1. 불에 달군 식칼로 시판용 카스텔라를 3cm 두께로 자른다.","2. 카스텔라 윗면에 단팥 1T를 펴 발라준다.","3. 아이스크림 한 스쿱을 ② 위에 올려준 뒤 카스텔라를 덮고 마무리해준다."]
+    },
+    {
+        "id":"16",
+        "category":"인플루언서",
+        "kotitle":"아이스크림 브륄레",
+        "engtitle":"Ice Cream Brulee",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/brulee_small.png",
+        "date":"2023-06-20",
+        "author":"박지원 인플루언서(돌체시스)",
+        "intro":"단 세가지 재료로 집에서 누구나 손쉽게 따라할 수 있는 초간단 디저트 레시피예요. 달걀 노른자와 바닐라 아이스크림을 녹이고 그 위에 설탕을 뿌려 토치로 구워주면 완성! 설탕 코팅은 깨먹는 재미가 있어요.",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/brulee_main.png",
+        "ice":[
+            {
+                "name":"바닐라",
+                "info":"부드럽고 깔끔한 바닐라 아이스크림",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/baked_alaska_ice1.png"
+            }
+        ],
+        "ingredients":["바닐라 270g","달걀 노른자 4개","설탕 13g"],
+        "recipe":["1. 달걀 노른자 4개와 바닐라 아이스크림을 섞어준다.","2. 냄비에 ②을 넣고 약불로 약 5분간 젓다가 적당히 걸쭉해지면 유리용기에 담아 랩을 씌우고 냉장고에서 차게 굳혀준다.","3. 굳은 브륄레 위에 설탕을 뿌리고 토치로 설탕 표면을 녹여준다."]
+    },
+    {
+        "id":"17",
+        "category":"인플루언서",
+        "kotitle":"쑥떡 쑥떡",
+        "engtitle":"Sooktteock, Sooktteock",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/tteok_small.png",
+        "date":"2023-06-20",
+        "author":"박지연 인플루언서(집밥둘리)",
+        "intro":"우유의 담백하고 깔끔한 맛에 봄 내음 가득한 쑥떡으로 어른들의 입맛을 사로잡을 디저트를 개발했어요. 그냥 먹어도 부드러운 아이스크림을 다시 한번 휘핑해서 먹으면 쫀득하고 크리미한 맛이 한 층 더 업그레이드된답니다! 떡이 가득 씹히게끔 넣었지만 기호에 따라 떡을 더 추가하여도 좋아요.",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/tteok_main.png",
+        "ice":[
+            {
+                "name":"순수 우유 레디팩",
+                "info":"풍부한 우유맛이 그대로! 고소하고 진한 우유 본연의 맛 그대로 담은 아이스크림",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/tteok_ice1.png"
+            }
+        ],
+        "ingredients":["순수 우유 레디팩","쑥떡 70g","콩가루 1.5T"],
+        "recipe":["1. 쑥떡 70g을 한 입 크기로 잘라준다.","2. 아이스크림 250g에 ①과 콩가루 1.5T를 넣고 가루가 뭉치지 않도록 섞어준다.","3. 냉동실에 1시간 보관 후 꺼내고 스푼으로 휘저어 크림 질감으로 만들어준다","4. 기호에 따라 떡을 추가해 준다."]
+    },
+    {
+        "id":"18",
+        "category":"인플루언서",
+        "kotitle":"사랑스러운 살사와 나초",
+        "engtitle":"Lovely Salsa and Nacho",
+        "smallimg":"http://localhost:3000/images/brrecipe/smallimg/salsa_small.png",
+        "date":"2023-06-15",
+        "author":"이재건 푸드 칼럼니스트",
+        "intro":"가장 좋아하는 플레이버이자, 가장 복합적인 맛을 내는 ‘사랑에 빠진 딸기’를 활용해 안주거리로 살사와 나초 메뉴를 개발했습니다. 상큼 달달하면서도 시원한 맛에 속이 뜨거운 날 한 입 먹으면 속이 뻥 내려가는 기분을 느낄 수 있을 거예요.",
+        "mainimg":"http://localhost:3000/images/brrecipe/mainimg/salsa_main.png",
+        "ice":[
+            {
+                "name":"사랑에 빠진 딸기",
+                "info":"크런치 초콜릿, 치즈 케이크, 스트로베리가 듬뿍 들어있는 아이스크림",
+                "iceimg":"http://localhost:3000/images/brrecipe/iceimg/salsa_ice1.png"
+            }
+        ],
+        "ingredients":["사랑에 빠진 딸기","방울토마토 5개","나초 한줌","살사 소스(다진 양파 3 큰 술, 다진 마늘 1 작은 술, 발사믹 식초 3 큰 술, 올리브유 1 큰 술, 설탕 1/2 큰 술, 소금 약간, 후추 약간, 각종 허브 약간씩)"],
+        "recipe":["1. 방울토마토는 취향에 따라 1/2 ~ 1/16로 썹니다.","2. 양파도 다지고 마늘은 으깨줍니다.","3. 볼에 담고 양념 재료도 넣어 잘 섞어 주세요.","4. 넓적한 볼에 살사를 담고 한쪽에 아이스크림을 한스쿱 뜬 후 나초를 곁들여 냅니다"]
+    }
+    
+]
