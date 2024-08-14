@@ -94,3 +94,21 @@ export const getCount = async (userId) => {
 
   return db.execute(sql, [userId]).then((result) => result[0][0]); // {count : 4} 이런형식으로 넘어옴
 };
+
+//TODO 장바구니 삭제
+export const getDelete = async (item) => {
+  // console.log("repository ==>", item);
+
+  const sql = `
+              delete from br_cart where cid = ?
+`;
+
+  try {
+    const [result] = await db.execute(sql, [item.cid]);
+    if (result.affectedRows > 0) {
+      return { cnt: 1 };
+    }
+  } catch (error) {
+    console.error(error);
+  }
+};

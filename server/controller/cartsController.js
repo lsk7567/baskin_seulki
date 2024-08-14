@@ -25,3 +25,12 @@ export const getCount = async (req, res) => {
   res.json(result);
   res.end();
 };
+
+//TODO 장바구니 삭제
+export const getDelete = async (req, res) => {
+  const item = req.body;
+  // console.log("controller ==>", item);
+  const result = await repository.getDelete(item);
+  res.json(result);
+  res.end();
+};

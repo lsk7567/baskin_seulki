@@ -6,5 +6,6 @@ router.post("/", controller.getCarts);
 
 router.post("/add", controller.insert); // 장바구니 추가
 router.post("/count", controller.getCount); // 장바구니 count
+router.post("/delete", controller.getDelete); // 장바구니 삭제
 
 export default router;

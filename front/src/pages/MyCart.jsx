@@ -32,14 +32,34 @@ export default function MyCart({ removeCartCount }) {
     alert("주문이 완료되었습니다!");
   };
 
-  //TODO 장바구니 삭제버튼기능 만들기 (정보는 삭제안되서 계속 남아있음)
-  const handleDelete = (cid, qty) => {
-    alert("해당 상품을 삭제하시겠습니까?");
-    const removeIndex = cartList.findIndex((item) => item.cid === cid);
-    const updateCartList = cartList.filter((item, i) => i !== removeIndex); //! "!==" 사용해서 삭제할 아이템 제외하고 나머지 반환
-    //                                     (item,i)의 i는 index정보임
-    setCartList(updateCartList);
-    removeCartCount(qty);
+  //TODO 장바구니 삭제
+  const handleDelete = (cid) => {
+    const result = window.confirm("해당 상품을 삭제하시겠습니까?");
+
+    if (!result) return;
+
+    const url = "http://127.0.0.1:8080/carts/delete";
+    const data = { cid: cid };
+
+    axios({
+      method: "post",
+      url: url,
+      data: data,
+    })
+      .then((res) => {
+        if (res.data.cnt === 1) {
+          alert("상품이 삭제되었습니다");
+
+          const updatedCartList = cartList.filter((item) => item.cid !== cid);
+          setCartList(updatedCartList);
+
+          const deletedItem = cartList.find((item) => item.cid === cid);
+          if (deletedItem) {
+            removeCartCount(deletedItem.qty);
+          }
+        }
+      })
+      .catch((error) => console.log(error));
   };
 
   return (
@@ -81,7 +101,7 @@ export default function MyCart({ removeCartCount }) {
                 <button
                   className="cart_delete_btn"
                   type="button"
-                  onClick={() => handleDelete(item.cid, item.qty)}
+                  onClick={() => handleDelete(item.cid)}
                 >
                   <FontAwesomeIcon icon={faX} />
                 </button>

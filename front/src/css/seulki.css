@@ -1456,6 +1456,15 @@ input::placeholder {
   border: none;
   width: 30px;
   height: 30px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.cart_delete_btn:hover {
+  transition: 0.3s;
+  background-color: transparent;
+  color: var(--pink-color-3);
+  border: 2px solid var(--pink-color-3);
 }
 
 .cart_button {
